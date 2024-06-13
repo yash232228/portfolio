@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400;600;700&
+      display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 100;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+      nav{
+         display: flex;
+         justify-content: space-around;
+         align-items: centre;
+         height: 80px;
+         background-color: rgb(18, 18, 62);
+      }
+      nav ul{
+          display: flex;
+          justify-content: centre;
+      }
+      nav ul li{
+          list-style: none;
+          margin: 0 23px;
+      }
+      nav ul li a{
+          text-decoration: none;
+          color: white;
+      }
+      nav ul li a:hover{
+        color:rgb(153, 153, 248);
+        font-size: 1.1rem;
+    }
+      .left{
+         font-size: 1.5rem;
+         margin: 9px 0;
+      }
+      .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+      .firstSection >div{
+        width: 30%;
+      }
+      .leftSection{
+       font-size: 2.5rem;
+       
+      }
+      .rightSection{
+        width: 80%; 
+      }
+      .purple{
+        color: rgb(170, 107, 228);
+      }
+      .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1px;
+        margin: 50px px;
+      }
+      #element{
+        color: rgb(170, 107, 228);
+      }
+      .secondSection h1{
+        font-size: 1.9rem;
+      }
+      .text-gray{
+       color: gray;
+       margin: 20px 10px;
+      }
+      .secondSection .box{
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical{
+        height: 77px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .image-top{
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title{
+       position: relative;
+       top: 75px;
+       width: 150px;
+       font-size: 14px;
+      }
+      .vertical-desc{
+      position: relative;
+      top: 86px;
+      color: gray;
+      width: 150px;
+      font-size: 9px;
+      }
+      footer{
+        background: #0e0e1a;
+        height: 240px;
+      }
+      .footer-first{
+        padding:23px 50px;
+       
+      }
+      .footer-second{
+        text-align: left;
+        margin: -85px 310px;  
+        
+      }
+      .footer-second ul li{
+        list-style: none;
+      }
+      .footer-third {
+        text-align: right;
+        margin: -100px 140px;
+      }
+     
+      .button a{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        border: 2px solid white;
+        background-color:rgb(48, 7, 87) ;
+        padding: 10px;
+        border-radius: 12px;
+      } 
+      .footer-fourth{
+        text-align: right;
+        margin: 130px 10px;
+      }
+      .footer-fifth{
+        margin-top: -60px;
+        margin-left: 50px;
+        font-size: 0.6;
+      }
+      .footer-fifth .imgone{
+
+        width: 23px;
+        height: 15px;
+        
+      }
+      .footer-fifth .two{
+        align-items: center;
+        margin-left: 650px;
+        margin-top: -23px;
+      }
+      .footer-fifth .imgtwo{
+        
+        width: 23px;
+        height: 20px;
+        
+      }
+      .footer-fifth .three{
+        text-align: right;
+        margin-right: 50px;
+        margin-top: -23px;
+      }
+      .footer-fifth .imgthre{
+        
+        width: 23px;
+        height: 20px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Yash's Portfolio</div>
+        <div class="roght">
+         <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me</a></li>
+         </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Yash</span>
+          <div>and I am passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="">
+        </div>
+      </section>
+      <hr>
+      <section class="secondSection">
+       <span class="text-gray">What I have done so far</span>
+       <h1>Work Experience</h1>
+       <div class="box">
+        <div class="vertical">
+          <img class="image-top"src="developer.png" alt="">
+          <div class="vertical-title">
+            HTML Developer
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque dolor enim. Repellendus, aspernatur beatae ullam ex sed tempore explicabo vitae odio ipsum qui error.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top"src="microsoft.png" alt="">
+          <div class="vertical-title">
+            Microsoft logo Designer
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro placeat enim tenetur, nesciunt accusamus soluta sint et vel voluptate. Quaerat.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top"src="onlineapp.png" alt="">
+          <div class="vertical-title">
+            Online Shopping App
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque dolor enim. Repellendus, aspernatur beatae ullam ex sed tempore explicabo vitae odio ipsum qui error.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top"src="c.png" alt="">
+          <div class="vertical-title">
+            C programmer
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque dolor enim. Repellendus, aspernatur beatae ullam ex sed tempore explicabo vitae odio ipsum qui error.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top"src="python.png" alt="">
+          <div class="vertical-title">
+            Python Learner
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque dolor enim. Repellendus, aspernatur beatae ullam ex sed tempore explicabo vitae odio ipsum qui error.
+          </div>
+        </div>
+        
+       </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer"></div>
+      <div class="footer-first">
+        <h3>Yash's Developer Portfolio :</h3>
+        
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Service</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <button class="button"><a href="">Download Resume</a></button>
+      </div>
+      <div class="footer-fourth">
+        <div class="rights">
+          Copyright &#169; yash'sportfolio.com | All rights reserved
+        </div>
+      </div>
+      <div class="footer-fifth">
+        <div class="one">
+          <img class="imgone" src="Gmail.png" alt="">
+          jogdandyash23@gmail.com
+        </div>
+        <div class="two">
+          <img class="imgtwo" src="youtube.png" alt="">
+          YashJogdand23
+        </div>
+        <div class="three">
+          <img class="imgthre" src="insta.png" alt="">
+          Yash_Jogdand23
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer','Web Designer','Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
